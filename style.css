@@ -11,7 +11,9 @@
     /*font-family: 'Roboto', sans-serif;*/
 
     font-family: 'Raleway', sans-serif;
+}
 
+:root{
     --blue-1: #0ffff7;
     --blue-2: #06ded5;
     --blue-3: #0a9aa0;
@@ -248,23 +250,21 @@ body::after {
 /*WRAPPER*/
 
 /*CONTENIDO*/
-#social {
-    position: relative;
-    height: 100vh;
+#content {
 }
 
-#social .wrapper {
+#content .wrapper {
     display: flex;
     justify-content: space-between;
     margin-top: 5rem;
 }
 
-#social .left-side {
+#content .left-side {
     max-width: 50%;
     padding: 3rem;
 }
 
-#social .right-side {
+#content .right-side {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -273,7 +273,7 @@ body::after {
     min-width: 50%;
 }
 
-#social .section {
+#content .section {
     border: 2px solid var(--cv-light-blue);
     border-radius: 2rem;
     font-size: 4rem;
@@ -288,7 +288,7 @@ body::after {
     align-items: center;
 }
 
-#social .section:hover {
+#content .section:hover {
     border: 2px solid var(--cv-light-blue);
     /*background: #EDF7F6;*/
     background: var(--lavender);
@@ -296,164 +296,14 @@ body::after {
     transition: background .25s;
 }
 
-#social .section:hover>h3 {
+#content .section:hover>h3 {
 
     color: var(--cv-light-blue);
     transition: all .25s;
 }
 
 /*OVERLAY*/
-.overlay {
-    background: rgba(0, 0, 0, .35);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 
-    display: none;
-
-    transition: all 1s;
-
-    overflow: hidden;
-}
-
-.overlay .close-btn i {
-    cursor: pointer;
-
-    font-size: 5rem;
-    color: var(--cv-light-blue);
-
-    position: absolute;
-    top: 0;
-    right: 2.5rem
-}
-
-.overlay .content > div{
-    display: none;
-}
-
-.toggle-content{
-
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    width: 75%;
-    height: 75%;
-    transform: translate(-50%, -50%);
-    
-    display: flex;
-
-    color: white;
-    background: #000;
-    
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-/*
-
-
-.deportes_content {
-    display: none;
-
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    width: 75%;
-    height: 75%;
-    transform: translate(-50%, -50%);
-
-    color: white;
-    background: #000;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.cultura_content {
-    display: none;
-
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    width: 75%;
-    height: 75%;
-    transform: translate(-50%, -50%);
-
-    color: white;
-    background: #000;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.politica_content {
-    display: none;
-
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    width: 75%;
-    height: 75%;
-    transform: translate(-50%, -50%);
-
-    color: white;
-    background: #000;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.historia_content {
-    display: none;
-
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    width: 75%;
-    height: 75%;
-    transform: translate(-50%, -50%);
-
-    color: white;
-    background: #000;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.notasdecafe_content {
-    display: none;
-
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    width: 75%;
-    height: 75%;
-    transform: translate(-50%, -50%);
-
-    color: white;
-    background: #000;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}*/
 
 /*FOOTER*/
 

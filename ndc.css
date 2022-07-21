@@ -1,0 +1,76 @@
+main{
+  margin-bottom: 10rem;
+}
+
+main .wrapper {
+  padding-top: 2rem;
+}
+main .wrapper h1 {
+  text-align: center;
+}
+main .wrapper p{
+  text-align: justify;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.links > div:nth-child(n) {
+  padding: 5rem;
+}
+
+.links img {
+  width: 10rem;
+  margin: 5rem;
+}
+
+#final-text {
+  text-align: center;
+}
+
+.left-section {
+  height: 30rem;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.left-section:hover,
+.right-section:hover {
+  border: 2px solid var(--cv-light-blue);
+  background: var(--lavender);
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+.left-section h2,
+.right-section h2 {
+  color: var(--cv-light-blue);
+  transition: all 0.25s;
+}
+.right-section {
+  height: 30rem;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .links {
+    flex-direction: column;
+  }
+  main .wrapper {
+    max-width: 85%;
+  }
+  main .wrapper p {
+    margin: 3rem 0;
+  }
+}
