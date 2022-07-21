@@ -37,7 +37,7 @@ html {
 
 /*FONT STYLES*/
 h1 {
-    font-size: 8rem;
+    font-size: 7rem;
     color: var(--cv-light-blue);
 }
 
@@ -56,7 +56,7 @@ h6 {
 }
 
 p {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 /*GENERAL RULES*/
@@ -168,11 +168,16 @@ body::after {
 }
 
 #home .wrapper .wrapper-2 {
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 #home .wrapper-2 h1 {
     margin-bottom: 3rem;
+}
+
+#home .wrapper .wrapper-2 p{
+
+    text-align: justify;
 }
 
 
@@ -347,17 +352,35 @@ footer li:hover {
         margin: 0;
     }
 
-    #home .wrapper {
+    #home .wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        min-height: none;
+    }
+    #home .wrapper .wrapper-2{
+        margin: 0;
+    }
+    #home .wrapper-2 {
+        max-width: 80%;
+        text-align: justify;
+        margin: 0;
+        margin-bottom: 5rem;
+
+    }
+    #home .wrapper-2 h1{
+        margin: 3rem 0;
+
+    }
+    #content .wrapper {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-
-    #home .wrapper-2 {
-        max-width: 80%;
-        text-align: center;
-        margin: 0;
-        margin-bottom: 5rem;
-
+    #content .left-side{
+        max-width: none;
+        text-align: justify;
+        padding: 1.5rem;
     }
 }

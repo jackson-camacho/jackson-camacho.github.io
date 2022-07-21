@@ -62,3 +62,15 @@ main .wrapper p{
   align-items: center;
   text-align: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .links {
+    flex-direction: column;
+  }
+  main .wrapper {
+    max-width: 85%;
+  }
+  main .wrapper p {
+    margin: 3rem 0;
+  }
+}
