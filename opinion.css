@@ -1,0 +1,20 @@
+main {
+  height: 100vh;
+}
+.opinion-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.opinion-section{
+    text-align: center;
+    margin: 2rem 3rem;
+}
+
+@media screen and (max-width: 1000px){
+    main {
+        height: fit-content;
+    }
+}
