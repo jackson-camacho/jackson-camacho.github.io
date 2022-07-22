@@ -30,12 +30,15 @@ main .wrapper p {
 }
 
 #final-text {
+  margin-top: 25vh;
   text-align: center;
+  color: var(--cv-light-blue);
 }
 
 .section {
   height: 30rem;
-  max-width: 100%;
+  width: 100%;
+  max-width: 36rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
