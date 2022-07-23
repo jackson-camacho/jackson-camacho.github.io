@@ -70,6 +70,11 @@ body {
     position: relative;
 }
 
+.wrapper {
+    max-width: 90%;
+    margin: auto;
+}
+
 /*HEADER*/
 header {
     background: var(--blue-5);
@@ -137,11 +142,6 @@ main>div {
     margin-bottom: 10rem;
 }
 
-
-.wrapper {
-    max-width: 95%;
-    margin: auto;
-}
 
 body::after {
     content: "";
