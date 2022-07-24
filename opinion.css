@@ -14,6 +14,11 @@ main .wrapper p:first-child {
   justify-content: center;
   flex-wrap: wrap;
 }
+.opinion-container #opinion-bottom-text{
+  margin: 5rem 0;
+  text-decoration: underline;
+  text-align: center;
+}
 .opinion-container h2 {
   font-size: 4rem;
 }
@@ -75,9 +80,13 @@ main .wrapper p:first-child {
   .opinion-section {
     flex-direction: column;
     width: 90%;
+    margin: 2rem 0;
   }
 
   #lente-jacinto {
     padding: 0rem;
+  }
+  .opinion-container #opinion-bottom-text{
+    margin: 2.5rem 0;
   }
 }
