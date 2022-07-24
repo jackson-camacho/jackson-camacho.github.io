@@ -324,20 +324,11 @@ body::after {
     margin: auto 0;
 }
 /*CONTACT*/
-#contact .wrapper{
-    margin-top: 5rem;
-}
 #contact .contact-link{
     width: 100%;
-    padding: 5rem 0;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-#contact .contact-link:hover{
-    border: 2px solid var(--cv-light-blue);
-    background-color: var(--lavender);
-    border-radius: 10px;
-    color: var(--cv-light-blue);
+    border: 1px solid black;
+    padding: 1rem 0;
+    margin: auto;
 }
 /*FOOTER*/
 
