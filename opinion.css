@@ -35,6 +35,10 @@ main .wrapper p:first-child {
   display: flex;
 }
 
+.opinion-link a{
+  text-align: center;
+}
+
 .opinion-link .opinion-name {
   color: var(--cv-blue);
 }
