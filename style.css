@@ -271,7 +271,7 @@ body::after {
 }
 
 #content .left-side p{
-    text-align: justify;
+    text-align:start;
     font-size: 3.2rem;
 }
 
