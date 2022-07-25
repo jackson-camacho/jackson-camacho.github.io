@@ -1,5 +1,6 @@
 main {
   padding-top: 2rem;
+  height: 100vh;
 }
 main .wrapper h2 {
   margin-bottom: 2rem;

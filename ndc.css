@@ -14,6 +14,10 @@ main .wrapper h1 {
 main .wrapper p {
   text-align: justify;
 }
+
+#intro-text{
+  margin-top: 5rem;
+}
 .links {
   display: flex;
   justify-content: center;
@@ -30,7 +34,7 @@ main .wrapper p {
 }
 
 #final-text {
-  margin-top: 25vh;
+  margin-top: 10vh;
   text-align: center;
   color: var(--cv-light-blue);
 }
