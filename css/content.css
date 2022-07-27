@@ -44,10 +44,6 @@ main .wrapper p {
     color: var(--cv-light-blue);
 }
 
-.section {
-    min-width: 30rem;
-}
-
 .section:hover {
     border: 2px solid var(--cv-light-blue);
     background: var(--lavender);
@@ -63,7 +59,10 @@ main .wrapper p {
 
 .section {
     height: 30rem;
-    max-width: 50%;
+    width: 40rem;
+    max-width: 100%;
+    margin: 3rem 0;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
