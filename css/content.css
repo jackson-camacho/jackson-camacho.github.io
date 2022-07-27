@@ -6,6 +6,16 @@ main {
     margin-bottom: 10rem;
 }
 
+main .wrapper::before{
+    content: '';
+    width: 10rem;
+    height: 10rem;
+    background: #000;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+
 main .wrapper {
     padding-top: 2rem;
 }
@@ -69,8 +79,12 @@ main .wrapper p {
     align-items: center;
     text-align: center;
 }
-
+.section.youtube p{
+    text-align: center;
+    margin-top: 1rem;
+}
 .section iframe{
+    margin-top: 3rem;
     width: 30rem;
     height: 30rem;
 }
