@@ -26,6 +26,7 @@ main .wrapper p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 3rem;
 }
 
@@ -44,7 +45,7 @@ main .wrapper p {
 }
 
 .section {
-    min-width: 40rem;
+    min-width: 30rem;
 }
 
 .section:hover {
@@ -68,6 +69,11 @@ main .wrapper p {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+}
+
+.section iframe{
+    width: 30rem;
+    height: 30rem;
 }
 
 @media screen and (max-width: 1000px) {
